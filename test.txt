@@ -109,22 +109,5 @@ public class UsernamePasswordFlow {
      * Helper function unique to this sample setting. In a real application these wouldn't be so hardcoded, for example
      * values such as username/password would come from the user, and different users may require different scopes
      */
-    private static void setUpSampleData() throws IOException {
-        // Load properties file and set properties used throughout the sample
-//        Properties properties = new Properties();
-//        properties.load(new FileInputStream(Thread.currentThread().getContextClassLoader().getResource("").getPath() + "application.properties"));
-//        authority = properties.getProperty("AUTHORITY");
-//        scope = Collections.singleton(properties.getProperty("SCOPE"));
-//        clientId = properties.getProperty("CLIENT_ID");
-//        username = properties.getProperty("USER_NAME");
-//        password = properties.getProperty("USER_PASSWORD");
-    	
-    	
-    	authority = "https://login.microsoftonline.com/82fac8d8-49c2-492d-9f67-7d9e5b66144e/";
-	      scope = Collections.singleton("user.read");
-	      clientId = "51737623-38e4-4609-b8b5-3845ede4e58b";
-	      username = "svc_apreso@stengg.com";
-	      password = "1dH%lG1L7X5F";
-    	
-    }
+    
 }
